@@ -47,8 +47,6 @@ async function predict(body) {
     let response = await fetch('https://sales-forecast-api.herokuapp.com/predict', {
         method: 'POST',
         cache: 'no-cache',
-        mode: 'no-cors',
-        referrerPolicy: 'no-referrer',
         headers: {
             'Content-Type': 'application/json'
         },
