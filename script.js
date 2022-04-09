@@ -48,6 +48,7 @@ async function predict(body) {
         method: 'POST',
         cache: 'no-cache',
         mode: 'no-cors',
+        referrerPolicy: 'no-referrer',
         headers: {
             'Content-Type': 'application/json'
         },
